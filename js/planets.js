@@ -1,5 +1,5 @@
 const requestDBZPlanetsURL = "https://dragonball-api.com/api/planets/?limit=20"
- 
+
 
 async function fetchPlanetsJson() {
   const response = await fetch(requestDBZPlanetsURL)
@@ -7,7 +7,6 @@ async function fetchPlanetsJson() {
   const dbzPlanets = data.items
   return dbzPlanets
 }
-
 
   let container = document.getElementById("container")
   fetchPlanetsJson().then(dbzPlanets =>{
@@ -23,4 +22,20 @@ async function fetchPlanetsJson() {
     `
       });
   })
+
+
+/*
+    for (let index = 0; index < items.length; index++) {
+        let idPlanet = items.dbzPlanets[index].id
+        let namePlanet = items.dbzPlanets[index].name
+        let isDestroyedPlanet = items.dbzPlanets[index].isDestroyed
+        let descriptionPlanet = items.dbzPlanets[index].description
+        let imagePlanet = items.dbzPlanets[index].image
+        let dbzPlanet = [idPlanet,namePlanet,isDestroyedPlanet,descriptionPlanet,imagePlanet]
+    }
+
+
+    let container = document.getElementById("container")
+    })
+*/
 
