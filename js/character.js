@@ -7,4 +7,3 @@ async function fetchCharactersJson(params) {
     console.log(characters)
 }
 
-let container = 
