@@ -1,5 +1,5 @@
 const requestDBZPlanetsURL = "https://dragonball-api.com/api/planets/?limit=20"
- 
+
 
 async function fetchPlanetsJson() {
   const response = await fetch(requestDBZPlanetsURL)

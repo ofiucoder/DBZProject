@@ -24,18 +24,5 @@ async function fetchPlanetsJson() {
   })
 
 
-/*
-    for (let index = 0; index < items.length; index++) {
-        let idPlanet = items.dbzPlanets[index].id
-        let namePlanet = items.dbzPlanets[index].name
-        let isDestroyedPlanet = items.dbzPlanets[index].isDestroyed
-        let descriptionPlanet = items.dbzPlanets[index].description
-        let imagePlanet = items.dbzPlanets[index].image
-        let dbzPlanet = [idPlanet,namePlanet,isDestroyedPlanet,descriptionPlanet,imagePlanet]
-    }
 
-
-    let container = document.getElementById("container")
-    })
-*/
 
